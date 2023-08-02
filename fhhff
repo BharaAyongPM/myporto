@@ -1,0 +1,366 @@
+ <!-- ======= Portfoio Section ======= -->
+        <section id="portfolio" class="portfoio">
+            <div class="container" data-aos="fade-up">
+      
+              <div class="section-title">
+                <h2>Berita</h2>
+              </div>
+
+              <div class="row portfolio-container">
+      
+                <div class="col-lg-6 col-md-3 col-6 portfolio-item filter-app">
+                  <img src="certification/backend.PNG" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Kompetisi Usia Muda Segera diMulai! Ayo Segera Daftar</h4>
+                    <p>Kompetisi Usia Muda Segera diMulai!...>></p>
+                    <a href="certification/backend.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class=""></i></a>
+                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class=""></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-6 portfolio-item filter-app">
+                  <h2>Kompetisi Usia Muda Segera diMulai! Ayo Segera Daftar</h2>
+                  <div class="btn-port">
+                    Rabu, 28 April 2023
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-4 portfolio-item filter-web">
+                  <img src="certification/backend.PNG" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Menjadi Topskor Revan Mengaku bahagia</h4>
+                    <p>Menjadi Topskor Revan......</p>
+                    <a href="certification/backend.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class=""></i></a>
+                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class=""></i></a>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-4 portfolio-item filter-app">
+                  <img src="certification/backend.PNG" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Menjadi Topskor Revan Mengaku bahagia</h4>
+                    <p>Menjadi Topskor Revan......</p>
+                    <a href="certification/backend.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class=""></i></a>
+                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class=""></i></a>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-4 portfolio-item filter-card">
+                  <img src="certification/backend.PNG" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Menjadi Topskor Revan Mengaku bahagia</h4>
+                    <p>Menjadi Topskor Revan......</p>
+                    <a href="certification/backend.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class=""></i></a>
+                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class=""></i></a>
+                  </div>
+                </div>
+              </div>
+            
+        </div>
+            </div>
+          </section>
+
+          /*--------------------------------------------------------------
+# Portfoio
+--------------------------------------------------------------*/
+.portfoio #portfolio-flters {
+  padding: 0;
+  margin: 0 auto 25px auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+}
+.portfoio h2 {
+text-align: left;
+padding-left: 15px;
+font-weight: 900;
+}
+
+
+
+.portfoio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 18px 10px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #444444;
+  margin: 0 3px 10px 3px;
+  transition: all ease-in-out 0.3s;
+  border-radius: 50px;
+}
+
+.portfoio #portfolio-flters li:hover,
+.portfoio #portfolio-flters li.filter-active {
+  color: #fff;
+  background: #C50816;
+}
+
+.portfoio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+.portfoio .portfolio-item {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.portfoio .portfolio-item img {
+  position: relative;
+  top: 0;
+  transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 30px;
+}
+
+.portfoio .portfolio-item h2 {
+  padding-top: 60px;
+  padding-left: 40px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.portfoio .portfolio-item .btn-port {
+  background: #C50816;
+  display: inline-block;
+  padding: 8px 35px 10px 35px;
+  border-radius: 50px;
+  color: #fff;
+  transition: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  margin-left: 40px;
+  margin-top: 10%;
+}
+
+
+.portfoio .portfolio-item .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  bottom: -50px;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  background: #C50816;
+  padding: 15px 20px;
+}
+
+.portfoio .portfolio-item .portfolio-info h4 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+.portfoio h5 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.portfoio .portfolio-item .portfolio-info p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.portfoio .portfolio-item .portfolio-info a {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 400px) {
+  .portfoio .portfolio-item h2 {
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .portfoio h2 {
+    text-align: left;
+    padding-left: 15px;
+    font-weight: 900px;
+    font-size: 20px;
+    }
+  .portfoio .portfolio-item .btn-port {
+    background: #C50816;
+    display: inline-block;
+    padding: 5px 20px 6px 20px;
+    border-radius: 50px;
+    color: #fff;
+    transition: none;
+    font-size: 8px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+    margin-left: 10px;
+    margin-top: -20px;
+  }
+  .portfoio .portfolio-item img{
+    border-radius: 10px;
+  }
+
+  .portfoio .portfolio-item .portfolio-info h4 {
+    font-size: 8px;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .portfoio .portfolio-item .portfolio-info p {
+    color: #fff;
+    font-size: 5px;
+    margin-bottom: 0;
+  }
+  .portfoio h5 {
+    font-size: 8px;
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .portfoio .portfolio-item h2 {
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .portfoio h2 {
+    text-align: left;
+    padding-left: 15px;
+    font-weight: 900px;
+    font-size: 20px;
+    }
+  .portfoio .portfolio-item .btn-port {
+    background: #C50816;
+    display: inline-block;
+    padding: 5px 20px 6px 20px;
+    border-radius: 50px;
+    color: #fff;
+    transition: none;
+    font-size: 8px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+    margin-left: 10px;
+    margin-top: -20px;
+  }
+  .portfoio .portfolio-item img{
+    border-radius: 10px;
+  }
+
+  .portfoio .portfolio-item .portfolio-info h4 {
+    font-size: 8px;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .portfoio .portfolio-item .portfolio-info p {
+    color: #fff;
+    font-size: 5px;
+    margin-bottom: 0;
+  }
+  .portfoio .portfolio-item .portfolio-info h5 {
+    font-size: 8px;
+    margin-bottom: 0;
+  }
+}
+
+.portfoio .portfolio-item .portfolio-info .preview-link,
+.portfoio .portfolio-item .portfolio-info .details-link {
+  position: absolute;
+  right: 50px;
+  font-size: 24px;
+  top: calc(50% - 18px);
+  color: white;
+  transition: ease-in-out 0.3s;
+}
+
+.portfoio .portfolio-item .portfolio-info .preview-link:hover,
+.portfoio .portfolio-item .portfolio-info .details-link:hover {
+  color: #8ec8fb;
+}
+
+.portfoio .portfolio-item .portfolio-info .details-link {
+  right: 15px;
+}
+
+.portfoio .portfolio-item:hover img {
+  top: -30px;
+}
+
+.portfoio .portfolio-item:hover .portfolio-info {
+  opacity: 1;
+  bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-details {
+  padding-top: 40px;
+}
+
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #C50816;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #C50816;
+}
+
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(246, 176, 36, 0.08);
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li+li {
+  margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
+}
